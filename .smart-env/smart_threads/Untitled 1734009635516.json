@@ -1,0 +1,83 @@
+{
+  "path": ".smart-env/smart_threads/Untitled 1734009635516.json",
+  "embeddings": {},
+  "embedding": {},
+  "history": [],
+  "created_at": 1734009635516,
+  "responses": {
+    "gemini-1734009665659": {
+      "id": "gemini-1734009665659",
+      "object": "chat.completion",
+      "created": 1734009671690,
+      "model": "gemini-exp-1206",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Okay, I understand. I'm ready to answer questions about callouts in this vault. Please provide me with the context of the vault you're referring to. \n\nTo help me answer your questions effectively, please tell me:\n\n*   **What is the vault about?** (e.g., Obsidian notes, a specific project, a knowledge base, etc.)\n*   **What kind of callouts are you using?** (e.g., Obsidian's built-in callouts, custom callouts, etc.)\n*   **What are your specific questions about these callouts?** (e.g., how to create them, how to customize them, how to use them effectively, troubleshooting issues, etc.)\n\nThe more information you give me, the better I can assist you. I can help with things like:\n\n*   **Explaining different callout types and their syntax.**\n*   **Providing examples of how to use callouts effectively.**\n*   **Helping you troubleshoot issues with callouts not rendering correctly.**\n*   **Suggesting ways to customize the appearance of callouts.**\n*   **Offering best practices for using callouts in your notes.**\n\nI'm looking forward to helping you with your callout questions! Just give me the details, and I'll do my best to provide helpful answers.\n"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 8,
+        "completion_tokens": 280,
+        "total_tokens": 288
+      }
+    }
+  },
+  "messages": {
+    "user-1-1734009660630-1": 1,
+    "assistant-2-1734009665661-1": 2
+  },
+  "branches": {},
+  "class_name": "SmartThread",
+  "key": "Untitled 1734009635516",
+  "blocks": [
+    {
+      "path": null,
+      "embeddings": {},
+      "embedding": {},
+      "text": null,
+      "length": 0,
+      "thread_key": "Untitled 1734009635516",
+      "content": [
+        {
+          "type": "text",
+          "text": "Questions callouts in this valut"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1734009660630-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1734009660630-1",
+      "key": "Untitled 1734009635516#user-1-1734009660630-1"
+    },
+    {
+      "path": null,
+      "embeddings": {},
+      "embedding": {},
+      "text": null,
+      "length": 0,
+      "thread_key": "Untitled 1734009635516",
+      "content": "Okay, I understand. I'm ready to answer questions about callouts in this vault. Please provide me with the context of the vault you're referring to. \n\nTo help me answer your questions effectively, please tell me:\n\n*   **What is the vault about?** (e.g., Obsidian notes, a specific project, a knowledge base, etc.)\n*   **What kind of callouts are you using?** (e.g., Obsidian's built-in callouts, custom callouts, etc.)\n*   **What are your specific questions about these callouts?** (e.g., how to create them, how to customize them, how to use them effectively, troubleshooting issues, etc.)\n\nThe more information you give me, the better I can assist you. I can help with things like:\n\n*   **Explaining different callout types and their syntax.**\n*   **Providing examples of how to use callouts effectively.**\n*   **Helping you troubleshoot issues with callouts not rendering correctly.**\n*   **Suggesting ways to customize the appearance of callouts.**\n*   **Offering best practices for using callouts in your notes.**\n\nI'm looking forward to helping you with your callout questions! Just give me the details, and I'll do my best to provide helpful answers.\n",
+      "role": "assistant",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 2,
+      "id": "assistant-2-1734009665661-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "gemini-1734009665659",
+      "branch_i": "1734009665661-1",
+      "key": "Untitled 1734009635516#assistant-2-1734009665661-1"
+    }
+  ]
+}

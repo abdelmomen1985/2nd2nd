@@ -1,0 +1,11 @@
+{
+  "hotkeys": [
+    {
+      "command": "workspace:copy-url",
+      "chords": [
+        "C-KeyK",
+        "KeyU"
+      ]
+    }
+  ]
+}

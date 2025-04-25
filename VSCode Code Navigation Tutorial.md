@@ -1,3 +1,14 @@
+---
+tags:
+  - vscode
+  - editor
+  - productivity
+  - tutorial
+  - shortcuts
+  - guide
+  - software_development
+---
+
 Visual Studio Code (VSCode) offers powerful code navigation features that can significantly boost your productivity. This tutorial will guide you through some of the most useful navigation techniques.
 
 ## 1. Go to Definition (F12)

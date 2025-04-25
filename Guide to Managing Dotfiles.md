@@ -1,3 +1,12 @@
+---
+tags:
+  - dotfiles
+  - configuration
+  - linux
+  - shell
+  - setup
+---
+
 Dotfiles are configuration files in Unix-like systems that begin with a dot (.) and are typically hidden. They store user preferences for various applications and shells. This guide will walk you through the process of effectively managing your dotfiles.
 
 ## 1. Centralize Your Dotfiles

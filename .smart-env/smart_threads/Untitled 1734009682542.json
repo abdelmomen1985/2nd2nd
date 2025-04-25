@@ -1,0 +1,155 @@
+{
+  "path": ".smart-env/smart_threads/Untitled 1734009682542.json",
+  "embeddings": {},
+  "embedding": {},
+  "history": [],
+  "created_at": 1734009682542,
+  "responses": {
+    "gemini-1734009729091": {
+      "id": "gemini-1734009729091",
+      "object": "chat.completion",
+      "created": 1734009731386,
+      "model": "gemini-exp-1206",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Please provide the text of the vault you're referring to. I need the content of the vault to identify and list the question callouts. \n\nOnce you provide the text, I will be able to help you by:\n\n1. **Identifying questions:** I will carefully read through the text and pinpoint all sentences or phrases that are phrased as questions.\n2. **Listing them clearly:** I will present the questions in a clear and organized list, making it easy for you to see them all at a glance.\n\nI look forward to helping you!\n"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 8,
+        "completion_tokens": 115,
+        "total_tokens": 123
+      }
+    },
+    "gemini-1734009780102": {
+      "id": "gemini-1734009780102",
+      "object": "chat.completion",
+      "created": 1734009798170,
+      "model": "gemini-exp-1206",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Okay, here's a list of question callouts, categorized for clarity. These are phrases and words that signal a question is being asked, even if it doesn't end with a question mark.\n\n**Direct Question Words (The \"WH\" Words and \"How\"):**\n\n*   **Who:**  Asks about a person or people.\n*   **What:** Asks about a thing, idea, or action.\n*   **Where:** Asks about a location or place.\n*   **When:** Asks about a time or date.\n*   **Why:** Asks about a reason or cause.\n*   **Which:** Asks about a choice from a set of options.\n*   **Whose:** Asks about possession or ownership.\n*   **Whom:** (Formal) Asks about the object of a verb or preposition (the person receiving the action).\n*   **How:** Asks about the manner, method, or condition.\n\n**Auxiliary/Helping Verbs at the Beginning of a Sentence:**\n\nThese often indicate a yes/no question:\n\n*   **Do/Does/Did:**  \"Do you like pizza?\"\n*   **Is/Am/Are/Was/Were:** \"Is it raining?\"\n*   **Have/Has/Had:** \"Have you seen my keys?\"\n*   **Can/Could:** \"Can you help me?\"\n*   **Will/Would:** \"Will you be there?\"\n*   **Shall/Should:** \"Shall we go?\"\n*   **May/Might:** \"May I borrow your pen?\"\n*   **Must:** \"Must we leave now?\"\n\n**Phrases that Introduce Questions:**\n\n*   **Can you tell me...**\n*   **Could you explain...**\n*   **I'd like to know...**\n*   **I was wondering...**\n*   **Do you know...**\n*   **Would you mind telling me...**\n*   **Is there any chance...**\n*   **I'm curious about...**\n*   **What's the deal with...** (Informal)\n*   **What's up with...** (Informal)\n*   **How come...** (Informal, similar to \"why\")\n*   **Mind if I ask...**\n\n**Intonation and Context:**\n\n*   **Rising intonation:**  Sometimes, a statement can become a question simply by raising the pitch of your voice at the end. Example: \"You're going to the store?\"\n*   **Context:** The surrounding conversation or situation can make it clear that a question is being asked, even without explicit question words.\n\n**Tag Questions:**\n\nThese are short questions added to the end of a statement:\n\n*   **..., isn't it?**\n*   **..., aren't you?**\n*   **..., do you?**\n*   **..., can't we?**\n*   **..., will they?**\n\n**Embedded Questions:**\n\nThese are questions within a larger sentence:\n\n*   \"I don't know **where he went**.\"\n*   \"She asked **if I was coming**.\"\n*   \"Can you tell me **what time it is**?\"\n\n**Rhetorical Questions:**\n\nThese are questions asked for effect, not to get an answer:\n\n*   \"Isn't that just great?\"\n*   \"Who doesn't love a good mystery?\"\n*   \"How could anyone do such a thing?\"\n\nThis list covers most of the common question callouts. Recognizing these will help you understand when a question is being asked, even if it's not in the traditional question format. Let me know if you have any other questions!\n"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 5,
+        "completion_tokens": 805,
+        "total_tokens": 810
+      }
+    }
+  },
+  "messages": {
+    "user-1-1734009773663-2": 1,
+    "assistant-2-1734009780103-1": 2
+  },
+  "branches": {
+    "1": [
+      {
+        "user-1-1734009727445-1": 1,
+        "assistant-2-1734009729092-1": 2
+      }
+    ]
+  },
+  "class_name": "SmartThread",
+  "key": "Untitled 1734009682542",
+  "blocks": [
+    {
+      "path": null,
+      "embeddings": {},
+      "embedding": {},
+      "text": null,
+      "length": 0,
+      "thread_key": "Untitled 1734009682542",
+      "content": [
+        {
+          "type": "text",
+          "text": "List question callouts"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1734009773663-2",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1734009773663-2",
+      "key": "Untitled 1734009682542#user-1-1734009773663-2"
+    },
+    {
+      "path": null,
+      "embeddings": {},
+      "embedding": {},
+      "text": null,
+      "length": 0,
+      "thread_key": "Untitled 1734009682542",
+      "content": "Okay, here's a list of question callouts, categorized for clarity. These are phrases and words that signal a question is being asked, even if it doesn't end with a question mark.\n\n**Direct Question Words (The \"WH\" Words and \"How\"):**\n\n*   **Who:**  Asks about a person or people.\n*   **What:** Asks about a thing, idea, or action.\n*   **Where:** Asks about a location or place.\n*   **When:** Asks about a time or date.\n*   **Why:** Asks about a reason or cause.\n*   **Which:** Asks about a choice from a set of options.\n*   **Whose:** Asks about possession or ownership.\n*   **Whom:** (Formal) Asks about the object of a verb or preposition (the person receiving the action).\n*   **How:** Asks about the manner, method, or condition.\n\n**Auxiliary/Helping Verbs at the Beginning of a Sentence:**\n\nThese often indicate a yes/no question:\n\n*   **Do/Does/Did:**  \"Do you like pizza?\"\n*   **Is/Am/Are/Was/Were:** \"Is it raining?\"\n*   **Have/Has/Had:** \"Have you seen my keys?\"\n*   **Can/Could:** \"Can you help me?\"\n*   **Will/Would:** \"Will you be there?\"\n*   **Shall/Should:** \"Shall we go?\"\n*   **May/Might:** \"May I borrow your pen?\"\n*   **Must:** \"Must we leave now?\"\n\n**Phrases that Introduce Questions:**\n\n*   **Can you tell me...**\n*   **Could you explain...**\n*   **I'd like to know...**\n*   **I was wondering...**\n*   **Do you know...**\n*   **Would you mind telling me...**\n*   **Is there any chance...**\n*   **I'm curious about...**\n*   **What's the deal with...** (Informal)\n*   **What's up with...** (Informal)\n*   **How come...** (Informal, similar to \"why\")\n*   **Mind if I ask...**\n\n**Intonation and Context:**\n\n*   **Rising intonation:**  Sometimes, a statement can become a question simply by raising the pitch of your voice at the end. Example: \"You're going to the store?\"\n*   **Context:** The surrounding conversation or situation can make it clear that a question is being asked, even without explicit question words.\n\n**Tag Questions:**\n\nThese are short questions added to the end of a statement:\n\n*   **..., isn't it?**\n*   **..., aren't you?**\n*   **..., do you?**\n*   **..., can't we?**\n*   **..., will they?**\n\n**Embedded Questions:**\n\nThese are questions within a larger sentence:\n\n*   \"I don't know **where he went**.\"\n*   \"She asked **if I was coming**.\"\n*   \"Can you tell me **what time it is**?\"\n\n**Rhetorical Questions:**\n\nThese are questions asked for effect, not to get an answer:\n\n*   \"Isn't that just great?\"\n*   \"Who doesn't love a good mystery?\"\n*   \"How could anyone do such a thing?\"\n\nThis list covers most of the common question callouts. Recognizing these will help you understand when a question is being asked, even if it's not in the traditional question format. Let me know if you have any other questions!\n",
+      "role": "assistant",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 2,
+      "id": "assistant-2-1734009780103-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "gemini-1734009780102",
+      "branch_i": "1734009780103-1",
+      "key": "Untitled 1734009682542#assistant-2-1734009780103-1"
+    },
+    {
+      "path": null,
+      "embeddings": {},
+      "embedding": {},
+      "text": null,
+      "length": 0,
+      "thread_key": "Untitled 1734009682542",
+      "content": [
+        {
+          "type": "text",
+          "text": "List question callouts in this vault"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1734009727445-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1734009727445-1",
+      "key": "Untitled 1734009682542#user-1-1734009727445-1"
+    },
+    {
+      "path": null,
+      "embeddings": {},
+      "embedding": {},
+      "text": null,
+      "length": 0,
+      "thread_key": "Untitled 1734009682542",
+      "content": "Please provide the text of the vault you're referring to. I need the content of the vault to identify and list the question callouts. \n\nOnce you provide the text, I will be able to help you by:\n\n1. **Identifying questions:** I will carefully read through the text and pinpoint all sentences or phrases that are phrased as questions.\n2. **Listing them clearly:** I will present the questions in a clear and organized list, making it easy for you to see them all at a glance.\n\nI look forward to helping you!\n",
+      "role": "assistant",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 2,
+      "id": "assistant-2-1734009729092-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "gemini-1734009729091",
+      "branch_i": "1734009729092-1",
+      "key": "Untitled 1734009682542#assistant-2-1734009729092-1"
+    }
+  ]
+}

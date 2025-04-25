@@ -1,0 +1,37 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "plugins": {
+      "copilot": {
+        "startupType": "short"
+      },
+      "docxer": {
+        "startupType": "short"
+      },
+      "omnisearch": {
+        "startupType": "short"
+      },
+      "obsidian-sequence-hotkeys": {
+        "startupType": "short"
+      },
+      "smart-connections": {
+        "startupType": "short"
+      },
+      "text-extractor": {
+        "startupType": "short"
+      },
+      "obsidian-thumbnails": {
+        "startupType": "short"
+      },
+      "obsidian-shellcommands": {
+        "startupType": "instant"
+      }
+    }
+  }
+}

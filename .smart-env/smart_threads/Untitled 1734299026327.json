@@ -1,0 +1,85 @@
+{
+  "path": ".smart-env/smart_threads/Untitled 1734299026327.json",
+  "embeddings": {},
+  "embedding": {},
+  "history": [],
+  "created_at": 1734299026327,
+  "responses": {
+    "gemini-1734343853611": {
+      "id": "gemini-1734343853611",
+      "object": "chat.completion",
+      "created": 1734343853611,
+      "model": "gemini-exp-1206",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "```\n*   **حذف الحساب**\n*   **إضافة معرف الفندق**\n*   **إضافة معرض الفندق**\n*   **زر مشاركة الفندق**\n*   **شريط التنقل السفلي (الصفحة الرئيسية - المفضلة - الحجوزات - الملف الشخصي - التقييمات)**\n*   **إضافة شريط البحث**\n*   **عرض الفنادق في بطاقات دائرية**\n*   **إضافة بانر إلى الصفحة الرئيسية**\n*   **تسجيل الدخول عبر وسائل التواصل الاجتماعي**\n*   **استعادة كلمة المرور**\n*   **تذكرني**\n```\n"
+          },
+          "finish_reason": "stop"
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 5985,
+        "completion_tokens": 143,
+        "total_tokens": 6128
+      }
+    }
+  },
+  "messages": {
+    "user-1-1734343847199-1": 1,
+    "assistant-2-1734343853612-1": 2
+  },
+  "branches": {},
+  "class_name": "SmartThread",
+  "key": "Untitled 1734299026327",
+  "blocks": [
+    {
+      "path": null,
+      "embeddings": {},
+      "embedding": {},
+      "text": null,
+      "length": 0,
+      "thread_key": "Untitled 1734299026327",
+      "content": [
+        {
+          "type": "text",
+          "text": "Create Note for this issues in arabic , show only issue name translated to arabic\n\n```\n{\n  \"grouped_by\": null,\n  \"sub_grouped_by\": null,\n  \"total_count\": 11,\n  \"next_cursor\": \"1000:1:0\",\n  \"prev_cursor\": \"1000:-1:1\",\n  \"next_page_results\": false,\n  \"prev_page_results\": false,\n  \"count\": 11,\n  \"total_pages\": 1,\n  \"total_results\": 11,\n  \"extra_stats\": null,\n  \"results\": [\n    {\n      \"id\": \"660e10f8-b491-408d-9145-fbe419250704\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T09:04:57.314648Z\",\n      \"updated_at\": \"2024-12-16T09:04:57.423008Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Delete Account\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 11,\n      \"sort_order\": 165535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    },\n    {\n      \"id\": \"a707f9fd-744f-4f7a-909b-28c30134ca5e\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T09:01:13.351071Z\",\n      \"updated_at\": \"2024-12-16T09:01:13.566575Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Add hotel id\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 10,\n      \"sort_order\": 155535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    },\n    {\n      \"id\": \"d664c75c-7d6d-4518-a11b-967d360556ac\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T09:01:08.510051Z\",\n      \"updated_at\": \"2024-12-16T09:04:12.375044Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"add hotel gallery\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 9,\n      \"sort_order\": 145535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": [\n        \"627db9cf-5c0e-49d8-9d5f-815346e64487\"\n      ]\n    },\n    {\n      \"id\": \"77c400bc-2fd8-4cc6-96cb-b998990094dc\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T09:01:03.369832Z\",\n      \"updated_at\": \"2024-12-16T09:04:02.906710Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Share hotel button\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 8,\n      \"sort_order\": 135535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": [\n        \"627db9cf-5c0e-49d8-9d5f-815346e64487\"\n      ]\n    },\n    {\n      \"id\": \"0a3a6482-e224-4496-90eb-16182865d45b\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T09:00:43.896286Z\",\n      \"updated_at\": \"2024-12-16T09:00:44.008685Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Footer nav (home - fav - reservations - profile - ratings )\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 7,\n      \"sort_order\": 125535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    },\n    {\n      \"id\": \"331b0810-8266-4636-b2e8-d01f04970aea\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T08:59:56.711131Z\",\n      \"updated_at\": \"2024-12-16T08:59:56.827310Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Add Search bar\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 6,\n      \"sort_order\": 115535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    },\n    {\n      \"id\": \"d6d07527-e024-4467-b194-4bb56f573f87\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T08:59:42.279179Z\",\n      \"updated_at\": \"2024-12-16T08:59:42.394125Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Show hotels in carousel cards\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 5,\n      \"sort_order\": 105535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    },\n    {\n      \"id\": \"1d4a71d2-4ffe-4ac2-aad8-e16bfb121771\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T08:59:23.908970Z\",\n      \"updated_at\": \"2024-12-16T08:59:24.089572Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Add banner to home\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 4,\n      \"sort_order\": 95535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    },\n    {\n      \"id\": \"2e555cb0-465c-42c5-9c0e-67c64097215d\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T08:58:55.110442Z\",\n      \"updated_at\": \"2024-12-16T08:58:55.241288Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Social media login\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 3,\n      \"sort_order\": 85535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    },\n    {\n      \"id\": \"4d7e3819-67de-439e-9e85-658cec4b3f63\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T08:58:11.424251Z\",\n      \"updated_at\": \"2024-12-16T08:58:11.553364Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Restore password\",\n      \"description_html\": \"<p></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 2,\n      \"sort_order\": 75535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    },\n    {\n      \"id\": \"47e65461-db13-43d1-9ee9-5e0627b6fa8e\",\n      \"type_id\": null,\n      \"created_at\": \"2024-12-16T08:57:00.492043Z\",\n      \"updated_at\": \"2024-12-16T08:57:00.839782Z\",\n      \"deleted_at\": null,\n      \"point\": null,\n      \"name\": \"Remember login\",\n      \"description_html\": \"<p class=\\\"editor-paragraph-block\\\"></p>\",\n      \"description_stripped\": \"\",\n      \"description_binary\": null,\n      \"priority\": \"none\",\n      \"start_date\": null,\n      \"target_date\": null,\n      \"sequence_id\": 1,\n      \"sort_order\": 65535,\n      \"completed_at\": null,\n      \"archived_at\": null,\n      \"is_draft\": false,\n      \"external_source\": null,\n      \"external_id\": null,\n      \"created_by\": \"57683cf5-3755-4975-92cb-6bd7fb3ec77f\",\n      \"updated_by\": null,\n      \"project\": \"d4bd6aad-e461-4f32-b93d-ca708b2ede5c\",\n      \"workspace\": \"a3429a06-71c8-4a4b-aaca-e8593913aac4\",\n      \"parent\": null,\n      \"state\": \"c5e82d60-e00d-4b0a-b6b6-b200ebf11965\",\n      \"estimate_point\": null,\n      \"type\": null,\n      \"assignees\": [],\n      \"labels\": []\n    }\n  ]\n}"
+        }
+      ],
+      "role": "user",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 1,
+      "id": "user-1-1734343847199-1",
+      "context": {
+        "folder_refs": []
+      },
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "branch_i": "1734343847199-1",
+      "key": "Untitled 1734299026327#user-1-1734343847199-1"
+    },
+    {
+      "path": null,
+      "embeddings": {},
+      "embedding": {},
+      "text": null,
+      "length": 0,
+      "thread_key": "Untitled 1734299026327",
+      "content": "```\n*   **حذف الحساب**\n*   **إضافة معرف الفندق**\n*   **إضافة معرض الفندق**\n*   **زر مشاركة الفندق**\n*   **شريط التنقل السفلي (الصفحة الرئيسية - المفضلة - الحجوزات - الملف الشخصي - التقييمات)**\n*   **إضافة شريط البحث**\n*   **عرض الفنادق في بطاقات دائرية**\n*   **إضافة بانر إلى الصفحة الرئيسية**\n*   **تسجيل الدخول عبر وسائل التواصل الاجتماعي**\n*   **استعادة كلمة المرور**\n*   **تذكرني**\n```\n",
+      "role": "assistant",
+      "tool_calls": null,
+      "tool_call_id": null,
+      "msg_i": 2,
+      "id": "assistant-2-1734343853612-1",
+      "context": {},
+      "tool_call_output": null,
+      "class_name": "SmartMessage",
+      "response_id": "gemini-1734343853611",
+      "branch_i": "1734343853612-1",
+      "key": "Untitled 1734299026327#assistant-2-1734343853612-1"
+    }
+  ]
+}

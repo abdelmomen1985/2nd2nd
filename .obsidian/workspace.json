@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e0e8369f8c077dd5",
+        "id": "37e0fc91bc784c8e",
         "type": "tabs",
         "children": [
           {
-            "id": "5fed8e1708c45ca1",
+            "id": "cf2b857f7136be33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guide to Managing Dotfiles.md",
+                "file": "Building a SW industry expert system use cases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Guide to Managing Dotfiles"
+              "title": "Building a SW industry expert system use cases"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Expert_System",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,11 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 305.5
   },
   "right": {
     "id": "29f6ace4f4dff7ba",
@@ -93,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guide to Managing Dotfiles.md",
+                "file": "More companies like kineo.ai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Guide to Managing Dotfiles"
+              "title": "Backlinks for More companies like kineo.ai"
             }
           },
           {
@@ -112,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Guide to Managing Dotfiles.md",
+                "file": "More companies like kineo.ai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Guide to Managing Dotfiles"
+              "title": "Outgoing links from More companies like kineo.ai"
             }
           },
           {
@@ -127,7 +129,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -139,32 +143,90 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guide to Managing Dotfiles.md"
+                "file": "Incrementalism in Software Development.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Guide to Managing Dotfiles"
+              "title": "Outline of Incrementalism in Software Development"
+            }
+          },
+          {
+            "id": "34a6858d9c8c3318",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "798165a2acdef8c7",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 518.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "workspaces:Manage workspace layouts": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "omnisearch:Omnisearch": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "5fed8e1708c45ca1",
+  "active": "cf2b857f7136be33",
   "lastOpenFiles": [
-    "README.md",
-    "Guide to Managing Dotfiles.md"
+    "modern expert system in software industry examples.md",
+    "How can expert systems enhance software project management decisions.md",
+    "Fields of expert systems uses in software industry.md",
+    "VSCode Code Navigation Tutorial.md",
+    "Behavior-Driven Development (BDD).md",
+    "Guide to Managing Dotfiles.md",
+    "Generated Logo ideas.md",
+    "Building a SW industry expert system use cases.md",
+    "Copilot-Indexed-Files-4-22-2025.md",
+    "Expert Systems in Software Selection.md",
+    "برامج الموارد البشرية.md",
+    "The Most Valued Software Agency Services in 2025_.pdf",
+    "final+Unlocking+Sales+Potential.pdf",
+    "best benefits from Edu Email.md",
+    "how to query or search advanced info from current open tabs or browsing history using chrome extensions.md",
+    "Web Scraping Techniques.md",
+    "Trato Testing And Performance.md",
+    "Personal Brand Development Plan 🗒.md",
+    "Obsidian open file urls using Shell commands.md",
+    "Most valued software agency services.md",
+    "More companies like kineo.ai.md",
+    "MarkDownload - Markdown Web Clipper ( Extension ).md",
+    "Incrementalism in Software Development.md",
+    "Hotel Website Booking Process.md",
+    "Generating Open Graph Images.md",
+    "Directus Multi Tenancy.md",
+    "📹 What is Knowledge Management.md",
+    "📹 Master Course Title SQLite for Production Simple, Fast, and Robust.md",
+    "Trustline.docx",
+    "Trustline 1.docx"
   ]
 }
